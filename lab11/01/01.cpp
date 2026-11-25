@@ -1,0 +1,14 @@
+#include <iostream>
+	int bar(int);
+
+	int foo(int x) {
+    return bar(x);
+	}
+	int bar(int x) {
+   	 return x+1;
+	}
+	int main() {
+   	 foo(0);
+    	return 0;
+	}
+
